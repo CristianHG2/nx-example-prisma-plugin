@@ -1,0 +1,9 @@
+{
+  "generators": {
+    "configuration": {
+      "factory": "./dist/generators/setup-client",
+      "schema": "./dist/generators/schema.json",
+      "description": "setup-client generator"
+    }
+  }
+}

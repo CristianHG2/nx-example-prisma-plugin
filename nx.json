@@ -83,6 +83,9 @@
       "options": {
         "targetName": "test"
       }
+    },
+    {
+      "plugin": "@janus/prisma-plugin"
     }
   ],
   "defaultBase": "master"

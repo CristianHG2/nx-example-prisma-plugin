@@ -1,0 +1,19 @@
+{
+  "executors": {
+    "generate": {
+      "implementation": "./dist/executors/generate/generate",
+      "schema": "./dist/executors/generate/schema.json",
+      "description": "Generate Prisma client"
+    },
+    "reset": {
+      "implementation": "./dist/executors/reset/reset",
+      "schema": "./dist/executors/reset/schema.json",
+      "description": "reset executor"
+    },
+    "migrate": {
+      "implementation": "./dist/executors/migrate/migrate",
+      "schema": "./dist/executors/reset/schema.json",
+      "description": "migrate executor"
+    }
+  }
+}
